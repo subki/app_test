@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="62c4dc1f-bc8f-4f0b-afda-54016ada1508" name="bando" url="http://ftp.bando-indonesia.com">
+        <fileTransfer host="ftp.bando-indonesia.com" port="21" rootFolder="/bando-app">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
