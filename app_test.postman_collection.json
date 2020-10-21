@@ -1,0 +1,1223 @@
+{
+	"id": "1e2b7485-9321-3599-2192-981accc26295",
+	"name": "app_test",
+	"description": "",
+	"order": [
+		"71361a8e-1028-5ada-3b2f-165ff36c45e4",
+		"79c7bca4-a967-f91d-db2c-c8c90d0bcf33",
+		"2075cf80-20b1-4c7b-0602-0b13c20c8f78",
+		"1fc222a9-4b58-0e4b-fa56-0b8c2d158f0b",
+		"7002aecc-2d68-22fe-645f-bdbd2144b629",
+		"06603ebd-2155-47ff-953a-a5adc4d2a51b",
+		"def760e2-caa2-9156-5be0-8cc7d957aec6",
+		"b89c7c58-a88c-36c2-9927-e8ba1e429bd7",
+		"4ff09872-d21b-f237-425f-1d2790035899",
+		"5a2afd22-cc92-44b9-1e53-77d61f23b6dc",
+		"ba147fea-1508-cb95-25b4-702e565aebfd",
+		"fc9b9785-180e-9324-cbc3-7aa200facfe8",
+		"16baccff-a983-d0a2-afda-90a036b88126",
+		"2be2aaef-3bdc-e8d6-3d48-445042254573",
+		"ff974a15-8656-eae2-1405-98ff6c95d5b3",
+		"6dd03ccb-4bb1-8071-b15f-6a4c1f444ed7",
+		"d04c3ede-415b-a91d-d14b-d88a286bfc32",
+		"bada502f-b427-4742-f301-c3cce1f6b5eb",
+		"2da10549-b835-59e9-b59e-dea87bf570c7",
+		"89528ea7-8b50-da5b-54c9-43d7ca065a71",
+		"1b2e20a7-1fd2-5a77-abb1-d16bfdecd47d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1603265107316,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "06603ebd-2155-47ff-953a-a5adc4d2a51b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/brand/3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "brand_name",
+					"value": "Brand Tes Upd",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603268047863,
+			"name": "http://localhost:7000/brand/:id",
+			"description": "",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"responses": []
+		},
+		{
+			"id": "16baccff-a983-d0a2-afda-90a036b88126",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/outlet/3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "outlet_name",
+					"value": "Nama Outlet",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "alamat yg jauh",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "longitude",
+					"value": "14.54949",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "latitude",
+					"value": "7.1549956",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAbwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHbSURBVDiNlZO/a1NRFMc/57538zvpa0o0gSARzaJIR120uEQQUVAHQXTSqoObm4KLi3+Bi6vgJO3soCAOdRAhxYKhoFhbjRjbhtYk7717XZpEzcPogQuXL+d+zvdczhFrLVHx5dqJwxLax7Gp5Aej5VL+3tzHqDwVJTav1h4oR57H8qkKyIyDU1+/ffZyVK786qB1/eSBwARzOpeoinYI2x0AnGwCcRSCzCttZjN3nzRHHDRna/dDZV7FC5mqSmiwYHcOOzUs9kzoy+LGnfPnBg4+X6ntFbHzbjZxyEnqgRsbGPz1bQC0l0Lc37u18EjC7k2Xnv8yVpoobew5yOaufZEf+mfkmst4q0sXUfG0a0GjhOZkhW+Z8j8BOn6It7oEQtLti4X6Ux62dpPL5cYCbsXeDe4DAEq4cNyQjq+x5Xs01jI0VsKxsAHATQoz0z06m+9x0/vxPO//AP2I548iSgNm7ONIwIu6UC5Ej/dfAcY3fG9bpkuLBKqI301w47RD1izQssd49gaWP422NJgOpRWTWSGhu3hZYSrbpVIUUrpDtexQmJBIByPLJJkjoItDwTuFlZFOhwABH2NxrMFYeN0IWPlq8EPFdsew8DagvWXpBf2KFjVcjh8/AV8Toy/znA52AAAAAElFTkSuQmCC",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/outlet/:id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603267688762,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "1b2e20a7-1fd2-5a77-abb1-d16bfdecd47d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/product/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product_name",
+					"value": "Produk 15",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "450000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/product/:id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603267964874,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "1fc222a9-4b58-0e4b-fa56-0b8c2d158f0b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/brand",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_name",
+					"value": "Brand Test Subki",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAbwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHbSURBVDiNlZO/a1NRFMc/57538zvpa0o0gSARzaJIR120uEQQUVAHQXTSqoObm4KLi3+Bi6vgJO3soCAOdRAhxYKhoFhbjRjbhtYk7717XZpEzcPogQuXL+d+zvdczhFrLVHx5dqJwxLax7Gp5Aej5VL+3tzHqDwVJTav1h4oR57H8qkKyIyDU1+/ffZyVK786qB1/eSBwARzOpeoinYI2x0AnGwCcRSCzCttZjN3nzRHHDRna/dDZV7FC5mqSmiwYHcOOzUs9kzoy+LGnfPnBg4+X6ntFbHzbjZxyEnqgRsbGPz1bQC0l0Lc37u18EjC7k2Xnv8yVpoobew5yOaufZEf+mfkmst4q0sXUfG0a0GjhOZkhW+Z8j8BOn6It7oEQtLti4X6Ux62dpPL5cYCbsXeDe4DAEq4cNyQjq+x5Xs01jI0VsKxsAHATQoz0z06m+9x0/vxPO//AP2I548iSgNm7ONIwIu6UC5Ej/dfAcY3fG9bpkuLBKqI301w47RD1izQssd49gaWP422NJgOpRWTWSGhu3hZYSrbpVIUUrpDtexQmJBIByPLJJkjoItDwTuFlZFOhwABH2NxrMFYeN0IWPlq8EPFdsew8DagvWXpBf2KFjVcjh8/AV8Toy/znA52AAAAAElFTkSuQmCC",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/brand",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603266376520,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2075cf80-20b1-4c7b-0602-0b13c20c8f78",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/brand/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "brand_name",
+					"value": "Brand Test Subki",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAbwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHbSURBVDiNlZO/a1NRFMc/57538zvpa0o0gSARzaJIR120uEQQUVAHQXTSqoObm4KLi3+Bi6vgJO3soCAOdRAhxYKhoFhbjRjbhtYk7717XZpEzcPogQuXL+d+zvdczhFrLVHx5dqJwxLax7Gp5Aej5VL+3tzHqDwVJTav1h4oR57H8qkKyIyDU1+/ffZyVK786qB1/eSBwARzOpeoinYI2x0AnGwCcRSCzCttZjN3nzRHHDRna/dDZV7FC5mqSmiwYHcOOzUs9kzoy+LGnfPnBg4+X6ntFbHzbjZxyEnqgRsbGPz1bQC0l0Lc37u18EjC7k2Xnv8yVpoobew5yOaufZEf+mfkmst4q0sXUfG0a0GjhOZkhW+Z8j8BOn6It7oEQtLti4X6Ux62dpPL5cYCbsXeDe4DAEq4cNyQjq+x5Xs01jI0VsKxsAHATQoz0z06m+9x0/vxPO//AP2I548iSgNm7ONIwIu6UC5Ej/dfAcY3fG9bpkuLBKqI301w47RD1izQssd49gaWP422NJgOpRWTWSGhu3hZYSrbpVIUUrpDtexQmJBIByPLJJkjoItDwTuFlZFOhwABH2NxrMFYeN0IWPlq8EPFdsew8DagvWXpBf2KFjVcjh8/AV8Toy/znA52AAAAAElFTkSuQmCC",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603268015384,
+			"name": "http://localhost:7000/brand/:id",
+			"description": "",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"responses": []
+		},
+		{
+			"id": "2be2aaef-3bdc-e8d6-3d48-445042254573",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/outlet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "outlet_name",
+					"value": "Nama Outlet",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "alamat yg jauh",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "longitude",
+					"value": "1.5498656",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "latitude",
+					"value": "14.897946",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAbwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHbSURBVDiNlZO/a1NRFMc/57538zvpa0o0gSARzaJIR120uEQQUVAHQXTSqoObm4KLi3+Bi6vgJO3soCAOdRAhxYKhoFhbjRjbhtYk7717XZpEzcPogQuXL+d+zvdczhFrLVHx5dqJwxLax7Gp5Aej5VL+3tzHqDwVJTav1h4oR57H8qkKyIyDU1+/ffZyVK786qB1/eSBwARzOpeoinYI2x0AnGwCcRSCzCttZjN3nzRHHDRna/dDZV7FC5mqSmiwYHcOOzUs9kzoy+LGnfPnBg4+X6ntFbHzbjZxyEnqgRsbGPz1bQC0l0Lc37u18EjC7k2Xnv8yVpoobew5yOaufZEf+mfkmst4q0sXUfG0a0GjhOZkhW+Z8j8BOn6It7oEQtLti4X6Ux62dpPL5cYCbsXeDe4DAEq4cNyQjq+x5Xs01jI0VsKxsAHATQoz0z06m+9x0/vxPO//AP2I548iSgNm7ONIwIu6UC5Ej/dfAcY3fG9bpkuLBKqI301w47RD1izQssd49gaWP422NJgOpRWTWSGhu3hZYSrbpVIUUrpDtexQmJBIByPLJJkjoItDwTuFlZFOhwABH2NxrMFYeN0IWPlq8EPFdsew8DagvWXpBf2KFjVcjh8/AV8Toy/znA52AAAAAElFTkSuQmCC",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/outlet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603266967526,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2da10549-b835-59e9-b59e-dea87bf570c7",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/product",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product_name",
+					"value": "Produk",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "500000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/product",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603267869542,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "4ff09872-d21b-f237-425f-1d2790035899",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/images",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "file",
+					"value": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAbwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHbSURBVDiNlZO/a1NRFMc/57538zvpa0o0gSARzaJIR120uEQQUVAHQXTSqoObm4KLi3+Bi6vgJO3soCAOdRAhxYKhoFhbjRjbhtYk7717XZpEzcPogQuXL+d+zvdczhFrLVHx5dqJwxLax7Gp5Aej5VL+3tzHqDwVJTav1h4oR57H8qkKyIyDU1+/ffZyVK786qB1/eSBwARzOpeoinYI2x0AnGwCcRSCzCttZjN3nzRHHDRna/dDZV7FC5mqSmiwYHcOOzUs9kzoy+LGnfPnBg4+X6ntFbHzbjZxyEnqgRsbGPz1bQC0l0Lc37u18EjC7k2Xnv8yVpoobew5yOaufZEf+mfkmst4q0sXUfG0a0GjhOZkhW+Z8j8BOn6It7oEQtLti4X6Ux62dpPL5cYCbsXeDe4DAEq4cNyQjq+x5Xs01jI0VsKxsAHATQoz0z06m+9x0/vxPO//AP2I548iSgNm7ONIwIu6UC5Ej/dfAcY3fG9bpkuLBKqI301w47RD1izQssd49gaWP422NJgOpRWTWSGhu3hZYSrbpVIUUrpDtexQmJBIByPLJJkjoItDwTuFlZFOhwABH2NxrMFYeN0IWPlq8EPFdsew8DagvWXpBf2KFjVcjh8/AV8Toy/znA52AAAAAElFTkSuQmCC",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "Test upload",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/images",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603266647189,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5a2afd22-cc92-44b9-1e53-77d61f23b6dc",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/images/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "file",
+					"value": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAbwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHbSURBVDiNlZO/a1NRFMc/57538zvpa0o0gSARzaJIR120uEQQUVAHQXTSqoObm4KLi3+Bi6vgJO3soCAOdRAhxYKhoFhbjRjbhtYk7717XZpEzcPogQuXL+d+zvdczhFrLVHx5dqJwxLax7Gp5Aej5VL+3tzHqDwVJTav1h4oR57H8qkKyIyDU1+/ffZyVK786qB1/eSBwARzOpeoinYI2x0AnGwCcRSCzCttZjN3nzRHHDRna/dDZV7FC5mqSmiwYHcOOzUs9kzoy+LGnfPnBg4+X6ntFbHzbjZxyEnqgRsbGPz1bQC0l0Lc37u18EjC7k2Xnv8yVpoobew5yOaufZEf+mfkmst4q0sXUfG0a0GjhOZkhW+Z8j8BOn6It7oEQtLti4X6Ux62dpPL5cYCbsXeDe4DAEq4cNyQjq+x5Xs01jI0VsKxsAHATQoz0z06m+9x0/vxPO//AP2I548iSgNm7ONIwIu6UC5Ej/dfAcY3fG9bpkuLBKqI301w47RD1izQssd49gaWP422NJgOpRWTWSGhu3hZYSrbpVIUUrpDtexQmJBIByPLJJkjoItDwTuFlZFOhwABH2NxrMFYeN0IWPlq8EPFdsew8DagvWXpBf2KFjVcjh8/AV8Toy/znA52AAAAAElFTkSuQmCC",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "description",
+					"value": "Test upload Edit",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/images/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603266762342,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6dd03ccb-4bb1-8071-b15f-6a4c1f444ed7",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/outlet/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "outlet_name",
+					"value": "Nama Outlet Ada",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "alamat yg jauh",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "longitude",
+					"value": "1.5498656",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "latitude",
+					"value": "14.897946",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAbwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHbSURBVDiNlZO/a1NRFMc/57538zvpa0o0gSARzaJIR120uEQQUVAHQXTSqoObm4KLi3+Bi6vgJO3soCAOdRAhxYKhoFhbjRjbhtYk7717XZpEzcPogQuXL+d+zvdczhFrLVHx5dqJwxLax7Gp5Aej5VL+3tzHqDwVJTav1h4oR57H8qkKyIyDU1+/ffZyVK786qB1/eSBwARzOpeoinYI2x0AnGwCcRSCzCttZjN3nzRHHDRna/dDZV7FC5mqSmiwYHcOOzUs9kzoy+LGnfPnBg4+X6ntFbHzbjZxyEnqgRsbGPz1bQC0l0Lc37u18EjC7k2Xnv8yVpoobew5yOaufZEf+mfkmst4q0sXUfG0a0GjhOZkhW+Z8j8BOn6It7oEQtLti4X6Ux62dpPL5cYCbsXeDe4DAEq4cNyQjq+x5Xs01jI0VsKxsAHATQoz0z06m+9x0/vxPO//AP2I548iSgNm7ONIwIu6UC5Ej/dfAcY3fG9bpkuLBKqI301w47RD1izQssd49gaWP422NJgOpRWTWSGhu3hZYSrbpVIUUrpDtexQmJBIByPLJJkjoItDwTuFlZFOhwABH2NxrMFYeN0IWPlq8EPFdsew8DagvWXpBf2KFjVcjh8/AV8Toy/znA52AAAAAElFTkSuQmCC",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/outlet/:id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603267664703,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7002aecc-2d68-22fe-645f-bdbd2144b629",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/brand/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_name",
+					"value": "Brand Tes Upd",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/brand/:id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603266463602,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "71361a8e-1028-5ada-3b2f-165ff36c45e4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/users/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:7000/users/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603265122209,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"username\":\"users\",\"password\":\"user123\"}"
+		},
+		{
+			"id": "79c7bca4-a967-f91d-db2c-c8c90d0bcf33",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/brand",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_name",
+					"value": "Brand Tes Upd",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/brand",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603266534068,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "89528ea7-8b50-da5b-54c9-43d7ca065a71",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/product/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product_name",
+					"value": "Produk 15",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "450000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/product/:id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603267952444,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "b89c7c58-a88c-36c2-9927-e8ba1e429bd7",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/images/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_name",
+					"value": "Brand Tes Upd",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/images/:id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603266593141,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ba147fea-1508-cb95-25b4-702e565aebfd",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/images/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "file",
+					"value": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAbwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHbSURBVDiNlZO/a1NRFMc/57538zvpa0o0gSARzaJIR120uEQQUVAHQXTSqoObm4KLi3+Bi6vgJO3soCAOdRAhxYKhoFhbjRjbhtYk7717XZpEzcPogQuXL+d+zvdczhFrLVHx5dqJwxLax7Gp5Aej5VL+3tzHqDwVJTav1h4oR57H8qkKyIyDU1+/ffZyVK786qB1/eSBwARzOpeoinYI2x0AnGwCcRSCzCttZjN3nzRHHDRna/dDZV7FC5mqSmiwYHcOOzUs9kzoy+LGnfPnBg4+X6ntFbHzbjZxyEnqgRsbGPz1bQC0l0Lc37u18EjC7k2Xnv8yVpoobew5yOaufZEf+mfkmst4q0sXUfG0a0GjhOZkhW+Z8j8BOn6It7oEQtLti4X6Ux62dpPL5cYCbsXeDe4DAEq4cNyQjq+x5Xs01jI0VsKxsAHATQoz0z06m+9x0/vxPO//AP2I548iSgNm7ONIwIu6UC5Ej/dfAcY3fG9bpkuLBKqI301w47RD1izQssd49gaWP422NJgOpRWTWSGhu3hZYSrbpVIUUrpDtexQmJBIByPLJJkjoItDwTuFlZFOhwABH2NxrMFYeN0IWPlq8EPFdsew8DagvWXpBf2KFjVcjh8/AV8Toy/znA52AAAAAElFTkSuQmCC",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "description",
+					"value": "Test upload Edit",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/images/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603266775162,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "bada502f-b427-4742-f301-c3cce1f6b5eb",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/product/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product_name",
+					"value": "Produk",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "500000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/product/:id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603267923904,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d04c3ede-415b-a91d-d14b-d88a286bfc32",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/product",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "product_name",
+					"value": "Produk",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "500000",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/product",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603267908355,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "def760e2-caa2-9156-5be0-8cc7d957aec6",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/images",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_name",
+					"value": "Brand Tes Upd",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/images",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603266553543,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fc9b9785-180e-9324-cbc3-7aa200facfe8",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/outlet",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"data": [
+				{
+					"key": "brand_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "outlet_name",
+					"value": "Nama Outlet",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "alamat yg jauh",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "longitude",
+					"value": "14.54949",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "latitude",
+					"value": "7.1549956",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAbwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHbSURBVDiNlZO/a1NRFMc/57538zvpa0o0gSARzaJIR120uEQQUVAHQXTSqoObm4KLi3+Bi6vgJO3soCAOdRAhxYKhoFhbjRjbhtYk7717XZpEzcPogQuXL+d+zvdczhFrLVHx5dqJwxLax7Gp5Aej5VL+3tzHqDwVJTav1h4oR57H8qkKyIyDU1+/ffZyVK786qB1/eSBwARzOpeoinYI2x0AnGwCcRSCzCttZjN3nzRHHDRna/dDZV7FC5mqSmiwYHcOOzUs9kzoy+LGnfPnBg4+X6ntFbHzbjZxyEnqgRsbGPz1bQC0l0Lc37u18EjC7k2Xnv8yVpoobew5yOaufZEf+mfkmst4q0sXUfG0a0GjhOZkhW+Z8j8BOn6It7oEQtLti4X6Ux62dpPL5cYCbsXeDe4DAEq4cNyQjq+x5Xs01jI0VsKxsAHATQoz0z06m+9x0/vxPO//AP2I548iSgNm7ONIwIu6UC5Ej/dfAcY3fG9bpkuLBKqI301w47RD1izQssd49gaWP422NJgOpRWTWSGhu3hZYSrbpVIUUrpDtexQmJBIByPLJJkjoItDwTuFlZFOhwABH2NxrMFYeN0IWPlq8EPFdsew8DagvWXpBf2KFjVcjh8/AV8Toy/znA52AAAAAElFTkSuQmCC",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:7000/outlet",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603267578068,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ff974a15-8656-eae2-1405-98ff6c95d5b3",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VycyIsImlhdCI6MTYwMzI2NDg1MiwiZXhwIjoxNjAzMzUxMjUyfQ.ZMHENDA6yvFbgXCsN9jqzVCvGmy1kg2LBictz5oRPMk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:7000/outlet/2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "brand_id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "outlet_name",
+					"value": "Nama Outlet Ada",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "alamat yg jauh",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "longitude",
+					"value": "1.5498656",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "latitude",
+					"value": "14.897946",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file",
+					"value": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAbwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHbSURBVDiNlZO/a1NRFMc/57538zvpa0o0gSARzaJIR120uEQQUVAHQXTSqoObm4KLi3+Bi6vgJO3soCAOdRAhxYKhoFhbjRjbhtYk7717XZpEzcPogQuXL+d+zvdczhFrLVHx5dqJwxLax7Gp5Aej5VL+3tzHqDwVJTav1h4oR57H8qkKyIyDU1+/ffZyVK786qB1/eSBwARzOpeoinYI2x0AnGwCcRSCzCttZjN3nzRHHDRna/dDZV7FC5mqSmiwYHcOOzUs9kzoy+LGnfPnBg4+X6ntFbHzbjZxyEnqgRsbGPz1bQC0l0Lc37u18EjC7k2Xnv8yVpoobew5yOaufZEf+mfkmst4q0sXUfG0a0GjhOZkhW+Z8j8BOn6It7oEQtLti4X6Ux62dpPL5cYCbsXeDe4DAEq4cNyQjq+x5Xs01jI0VsKxsAHATQoz0z06m+9x0/vxPO//AP2I548iSgNm7ONIwIu6UC5Ej/dfAcY3fG9bpkuLBKqI301w47RD1izQssd49gaWP422NJgOpRWTWSGhu3hZYSrbpVIUUrpDtexQmJBIByPLJJkjoItDwTuFlZFOhwABH2NxrMFYeN0IWPlq8EPFdsew8DagvWXpBf2KFjVcjh8/AV8Toy/znA52AAAAAElFTkSuQmCC",
+					"description": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603267653565,
+			"name": "http://localhost:7000/outlet/:id",
+			"description": "",
+			"collectionId": "1e2b7485-9321-3599-2192-981accc26295",
+			"responses": []
+		}
+	]
+}
