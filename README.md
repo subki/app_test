@@ -1,7 +1,7 @@
 # app_test
 Node JS Backend Test
 
-- Import the database into mysql
+- Import the database into mysql (find file "test.sql")
 - Change the port in ./config.js if nodejs are conflict
 - Open command and execute "npm install" for including all library needs
 - API CRUD for Brand, Outlet, Product tables.
