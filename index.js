@@ -50,7 +50,7 @@ const pool  = mysql.createPool({
 app.pool = pool.promise();
 
 app.listen(config.web_port);
-console.log('Running a GraphQL API server at http://localhost:4000/graphql');
+console.log('Running a GraphQL API server at http://localhost:7000/graphql');
 
 // server.listen(config.web_port, function(){
 //     console.log('listening on *:'+config.web_port);
