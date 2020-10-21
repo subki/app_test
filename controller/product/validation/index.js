@@ -3,7 +3,7 @@ const validator = require('../../../middleware/validator');
 
 const validateProduct = validator(
     Joi.object().keys({        
-        outlet_name: Joi.string().min(5).required().error(e => {
+        product_name: Joi.string().min(5).required().error(e => {
             let msg = 'Nama product harus diisi';
             if(e){
                 switch(e[0].type){
@@ -13,7 +13,15 @@ const validateProduct = validator(
                 }   
             }
             return {message: msg};
-        })
+        }),
+        price: Joi.number().required().error(e => {
+            let msg = 'Harga harus diisi';
+            return {message: msg};
+        }),
+        brand_id: Joi.number().required().error(e => {
+            let msg = 'Brand harus diisi';
+            return {message: msg};
+        }),
     })
 );
 

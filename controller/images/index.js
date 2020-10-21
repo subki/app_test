@@ -40,6 +40,17 @@ router.post("/", auth, validateImage, async (req, res)=>{
         return res.status(422).json({status:1, errors:[{key:"general", msg:"Logo harus terlampir!"}]});
     }
 });
+
+router.put("/:id", auth, async (req, res) => {
+    const data = req.body;
+    let param = {
+        fields: {...data, updby: req.userInfo.id},
+        where: {'id': req.params.id}
+    }
+    const [result, err] = await mod.update(param);
+    res.status(err?422:200).json(result);
+});
+
 router.delete("/:id", auth, async (req, res)=> {
     const [result, err] = await mod.delete({key:'id', value:req.params.id})
     if(err) return res.status(422).json({status:1, ...result});

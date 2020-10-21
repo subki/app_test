@@ -13,7 +13,8 @@ const validateBrand = validator(
                 }   
             }
             return {message: msg};
-        })
+        }),
+        file:Joi.string().min(8)
     })
 );
 
